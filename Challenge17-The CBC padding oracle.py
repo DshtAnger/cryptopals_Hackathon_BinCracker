@@ -2,7 +2,9 @@
 from code import *
 
 '''
-reference:http://www.freebuf.com/articles/web/15504.html
+reference:
+    http://www.freebuf.com/articles/web/15504.html
+    http://www.icylife.net/yunshu/attachments/Padding-Oracle-Attack.pdf
 
 解密的时候，c0经持有真正密钥的算法解密得到中间件intermediate是唯一确定的，
 中间件的最后一个字节只有唯一的某值使得它自己异或上构造的IV最后一个字节后，
